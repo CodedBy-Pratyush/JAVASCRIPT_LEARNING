@@ -17,3 +17,11 @@ console.log(instituteName);
 // -------- Booleans --------
 let isUserLoggedIn = true;
 console.log(isUserLoggedIn);
+
+// -------- Null --------
+let lastActiveUser = null; // intentional empty value
+console.log(lastActiveUser);
+
+// -------- Undefined --------
+let lastSessionTime; // automatically undefined
+console.log(lastSessionTime);
