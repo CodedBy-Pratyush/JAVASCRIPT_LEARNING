@@ -43,3 +43,11 @@ console.log(Number("45abc"));    // NaN
 console.log(Boolean(0));         // false
 console.log(Boolean(100));       // true
 console.log(String(500));        // "500"
+
+
+// -------- typeof operator --------
+console.log(typeof 500);         // number
+console.log(typeof "hello");     // string
+console.log(typeof true);        // boolean
+console.log(typeof undefined);   // undefined
+console.log(typeof null);        // object (JS bug)
