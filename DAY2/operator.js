@@ -27,3 +27,12 @@ console.log(userLoggedIn + 10); // true -> 1 => 11
 console.log("2" + "3");   // "23"
 console.log("2" + 3);     // "23"
 console.log(2 + "3");     // "23"
+
+
+console.log("5" * 4);     // 20 (string -> number)
+console.log("100" - 40);  // 60
+console.log("10" / 2);    // 5
+
+// -------- NaN cases --------
+console.log("abc" * 2);          // NaN
+console.log(typeof ("abc" * 2)); // number (important)
