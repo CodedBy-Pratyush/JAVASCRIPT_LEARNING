@@ -25,3 +25,16 @@ console.log(lastActiveUser);
 // -------- Undefined --------
 let lastSessionTime; // automatically undefined
 console.log(lastSessionTime);
+
+// -------- Object --------
+const userProfile = {
+    firstName: "Aman",
+    lastName: "Sharma",
+    age: 23,
+    isLoggedIn: true,
+    lastLoginDate: null,
+};
+
+console.log(userProfile);
+console.log(userProfile.age);
+console.log(userProfile.lastLoginDate);
