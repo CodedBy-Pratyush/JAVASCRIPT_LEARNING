@@ -36,3 +36,10 @@ console.log("10" / 2);    // 5
 // -------- NaN cases --------
 console.log("abc" * 2);          // NaN
 console.log(typeof ("abc" * 2)); // number (important)
+
+// -------- Explicit conversion (better practice) --------
+console.log(Number("45"));       // 45
+console.log(Number("45abc"));    // NaN
+console.log(Boolean(0));         // false
+console.log(Boolean(100));       // true
+console.log(String(500));        // "500"
