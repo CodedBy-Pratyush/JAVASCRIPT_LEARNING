@@ -17,3 +17,13 @@ if (1) {
 
 // 1  -> true
 // 0  -> false
+
+// -------- Boolean to Number coercion --------
+let userLoggedIn = true;
+
+console.log(userLoggedIn + 10); // true -> 1 => 11
+
+// -------- String coercion examples --------
+console.log("2" + "3");   // "23"
+console.log("2" + 3);     // "23"
+console.log(2 + "3");     // "23"
