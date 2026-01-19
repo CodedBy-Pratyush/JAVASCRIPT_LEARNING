@@ -45,3 +45,9 @@ switch (option) {
     break;
 
 }
+
+
+
+let a =190
+let opt= '+'
+let  b = 80
