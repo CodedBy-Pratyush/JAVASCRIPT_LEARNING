@@ -8,3 +8,11 @@ if (age >= 80) {
 } else {
   //   console.log("Not Eligible ");
 }
+
+// Ternary Opearator
+
+// age>=18 ? console.log("eligible") : console.log("Not Eligible");
+let result = age >= 18 ? "Yes" : " No";
+// console.log(result);
+
+// Switch Case Statements
