@@ -51,3 +51,13 @@ switch (option) {
 let a =190
 let opt= '+'
 let  b = 80
+
+
+switch(opt){
+    case '+': console.log(a+b); break
+    case '-': console.log(a-b); break
+    case '*': console.log(a*b); break
+    case '/': console.log(a/b); break
+    default : console.log("invalid Option");
+
+}
