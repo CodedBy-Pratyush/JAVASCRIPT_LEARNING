@@ -16,3 +16,24 @@ let result = age >= 18 ? "Yes" : " No";
 // console.log(result);
 
 // Switch Case Statements
+const option = 5;
+
+switch (option) {
+  case 1:
+    {
+      console.log("french");
+    }
+    break;
+
+  case 2:
+    {
+      console.log("Eng");
+    }
+    break;
+
+  case 3:
+    {
+      console.log("beng");
+    }
+    break;
+}
