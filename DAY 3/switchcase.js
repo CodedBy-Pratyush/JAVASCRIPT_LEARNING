@@ -36,4 +36,12 @@ switch (option) {
       console.log("beng");
     }
     break;
+
+    
+  default:
+    {
+      console.log("invalid Option");
+    }
+    break;
+
 }
