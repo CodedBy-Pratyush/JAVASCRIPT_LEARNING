@@ -17,3 +17,19 @@ while (ip != house) {
 
 // do while loop : first run the program and then cheack the condition
 
+do {
+  ip++;
+  // console.log(ip);
+} while (ip <= house);
+
+// guess the input ( Game)
+
+let number = 40;
+let guess = 0;
+do {
+  guess = parseInt(prompt("Guess A Number"));
+  if (guess == number) {
+      alert("Winner");
+      break;
+  }
+} while (guess !== 0);
