@@ -18,4 +18,16 @@
 
   //OR -> Atleast one condition should be ture || 
 
+  if(age>=18 || gender=='cmale')
+  {
+    // console.log("Adult Male");
+  }
+//   let isMale= gender=="male"
+//   console.log(isMale);
   
+// NOt -> inverse the value T-F, F-T ( ! )
+const number= 5
+if(! (number % 2 == 0))
+{
+    console.log("ODD");
+}
