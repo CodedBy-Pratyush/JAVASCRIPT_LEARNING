@@ -10,4 +10,12 @@
   {
     // console.log("You're an Adult");
   }
+  else{
+    // console.log("You're Not Adult");
+
+  }
+
+
+  //OR -> Atleast one condition should be ture || 
+
   
