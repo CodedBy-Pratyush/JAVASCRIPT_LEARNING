@@ -46,3 +46,16 @@ let result1 = addNumbers(10, 20, 30, 40); // passing multiple values
 console.log(result1); // printing result of unlimited arguments
 
 // Using speard Operator
+
+function addNumberV2(...numbers) {
+  // spread operator converts arguments into an array
+  let ans = 0; // initial value
+  for (let i = 0; i < numbers.length; i = i + 1) {
+    // iterating over array created by spread operator
+    ans = ans + numbers[i]; // summing all values
+  }
+  return ans; // returning final sum
+}
+
+let result = addNumberV2(15, 25, 35, 45); // multiple arguments using spread
+console.log(result); // final output
