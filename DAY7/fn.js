@@ -21,3 +21,28 @@ function multiply(a, b) {
   // console.log(a * b); // avoided direct printing
   return a * b;
 }
+// multiply(6, 4);  // parameter example
+
+let a = multiply(6, 4); // storing returned value in variable
+// console.log(" Multiply result  is : " + " " + a);
+
+let addresult = add(8, 7); // calling add function with new digits
+// console.log(" Add result  is : " + " " + addresult);
+
+// assignment -2
+
+// unlimited argument
+function addNumbers() {
+  // arguments is an array-like object
+  let ans = 0; // initial sum value
+  for (let i = 0; i < arguments.length; i = i + 1) {
+    // loop runs for total number of arguments passed
+    ans = ans + arguments[i]; // adding each argument
+  }
+  return ans; // returning total sum
+}
+
+let result1 = addNumbers(10, 20, 30, 40); // passing multiple values
+console.log(result1); // printing result of unlimited arguments
+
+// Using speard Operator
