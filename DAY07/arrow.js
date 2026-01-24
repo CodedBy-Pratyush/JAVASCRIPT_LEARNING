@@ -34,3 +34,17 @@ const addTwo = (a, b) => a + b; // one liner
 const sayYes = () => {
     // console.log("Yes");
 };
+
+// This Keyword
+
+const obj = {
+  value: 20,
+  myFunc:  ()=> {
+    console.log(" Value is :" + this);
+  },
+};
+
+// arrow  func  : global and this point to the global object
+// normal function  : current context ko point krta hai
+
+obj.myFunc();
