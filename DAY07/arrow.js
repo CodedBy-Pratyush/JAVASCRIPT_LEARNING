@@ -44,7 +44,8 @@ const obj = {
   },
 };
 
-// arrow  func  : global and this point to the global object
-// normal function  : current context ko point krta hai
+// arrow  func  : global and this point to the global object, global scope
+// normal function  : current context ko point krta hai , block scope
+// this , arguments , hoisting only held in normal fn not in arrow fn
 
 obj.myFunc();
