@@ -35,7 +35,7 @@ This repository helps me:
 - Build a public proof of work
 
 ---
-PIYUSH GARG , W3SCHOOL ,ROHIT NEGI........... resources 
+PIYUSH GARG , W3SCHOOL ,........... resources 
 ## Structure
 
 Folders are organized by **day or topic**, for example:
