@@ -50,3 +50,24 @@ let result = data.findIndex((num)=>num===7)
 
 
 //**INCLUDE */
+
+//**FILTER */
+const filteredEven = data.filter((num)=>num%2==0)
+// console.log(filteredEven);
+
+
+// *slice -> return a new array without modufying a original array
+
+const slicedPart = data.slice(2)   //last index exclued hota hai isliy +1 krna pdta hai
+// console.log(slicedPart);
+
+
+//**Splice   -> remove the element from the array
+            //  -> Modifying in original array 
+
+
+const freshData = [4, 6, 10, 12, 15, 18];
+
+   const removedItems = freshData.splice(1,3)     
+   console.log(removedItems);  
+   console.log(freshData);
