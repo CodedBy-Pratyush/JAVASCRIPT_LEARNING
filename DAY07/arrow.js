@@ -30,7 +30,7 @@ const addTwo = (a, b) => a + b; // one liner
 
 // ***Hoisting ***\\
 
-// sayYes() // cant used before intiliazation
+// sayYes() // cant used before intiliazation in arrow fn but can be done in normal fn
 const sayYes = () => {
     // console.log("Yes");
 };
